@@ -1,6 +1,6 @@
 import React from 'react'
 import './Professionnels.css'
-import video from '../../Assets/hero.mp4'
+import video from '../../Assets/video2.mp4'
 import ServiceCard from '../../component/ServiceCard/ServiceCard'
 import Button from '../../component/button/Button'
 import Information from '../../component/Information/Information'

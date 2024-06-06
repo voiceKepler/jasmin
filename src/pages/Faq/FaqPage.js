@@ -1,6 +1,6 @@
 import React from 'react'
 import './FaqPage.css'
-import video from '../../Assets/hero.mp4'
+import video from '../../Assets/video2.mp4'
 import Faq from '../../component/FaqComponent/Faq'
 import Renovation from '../../component/Renovation/Renovation'
 import Faq1 from '../../Assets/FAQ1.jfif'

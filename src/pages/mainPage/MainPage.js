@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../component/button/Button";
-import videoSrc from "../../Assets/hero.mp4";
+import videoSrc from "../../Assets/video2.mp4";
 import "./MainPage.css";
 import ServiceCard from "../../component/ServiceCard/ServiceCard";
 import AchivementCard from "../../component/card2/AchivementCard";

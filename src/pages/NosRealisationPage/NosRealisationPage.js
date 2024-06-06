@@ -1,6 +1,6 @@
 import React from 'react';
 import './NosRealisationPage.css';
-import video from "../../Assets/hero.mp4";
+import video from "../../Assets/video2.mp4";
 import HeroComponent from '../../component/HeroComponent/HeroComponent';
 import Renovation from '../../component/Renovation/Renovation';
 import gridpic1 from "../../Assets/Grid1.jfif"
