@@ -3,6 +3,9 @@ import './Footer.css'
 import '../../index.css'
 import footerBg from '../../Assets/footerbg.jpeg'
 import Button from '../button/Button'
+import logo from "../../Assets/logo.webp"
+import logo2 from "../../Assets/home.webp"
+import { Link } from 'react-router-dom'
 
 
 function Footer() {
@@ -11,29 +14,31 @@ function Footer() {
       <img src={footerBg} alt="footer background" className='footer-img' />
       <div className='footer-content'>
         <div>
-          <img loading="lazy" decoding="async" width="300" height="66" src="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov-300x66.png.webp" alt="" className="wp-image-15 mb-5" style={{ width: "155px", height: "34px" }} srcset="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov-300x66.png.webp 300w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov-600x132.png.webp 600w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov-1024x226.png.webp 1024w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov-768x169.png.webp 768w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/05/transparent-jasmin-renov.png.webp 1244w" />
+          <img  decoding="async" width="150" height="60" src={logo} alt="" className="wp-image-15 mb-5"  />
           <p>Spécialistes de la rénovation d'intérieur <br /> en Ile-de-France et Alsace.</p>
           <Button hyperlink="#" name="Devis gratuit" /><br />
-          <img loading="lazy" decoding="async" width="500" height="500" src="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Garantie.png.webp" alt="" className="wp-image-1071 mt-5" style={{ width: "100px", height: "100px" }} srcset="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Garantie.png.webp 500w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Garantie-300x300.png.webp 300w,  https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Garantie-150x150.png.webp 150w" />
+          {/* <img  decoding="async" width="200" height="200" src={logo2} alt="" className=""/> */}
         </div>
         <div>
           <h4>Accès rapide</h4>
           <ul className='custom-list'>
             <li><a href="#">Nos services</a></li>
             <ul>
-              <li><a href="#">Pour les particuliers</a></li>
-              <li><a href="#">Pour les professionnels</a></li>
+              <Link to="/particular"><li>Pour les particuliers</li></Link>
+              <Link to="/Professionel"><li>Pour les professionnels</li></Link>
             </ul>
             <li><a href="#">À propos de nous</a></li>
             <ul>
-              <li><a href="#">Nos réalisations</a></li>
-              <li><a href="#">Avis clients</a></li>
-              <li><a href="#">Nos zones d’intervention</a></li>
-              <li><a href="#">Nos fournisseurs</a></li>
+            <Link to="/NosRealisationPage"><li>Nos réalisations</li></Link>
+            <Link to="/client"><li>Avis clients</li></Link>
+            <Link to="/ZonesIntervention"><li>Nos zones d’intervention</li></Link>
+            <Link to="/NosFournisseurs"><li>Nos fournisseurs</li></Link>
+              
             </ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
+            <Link to="/Blog"><li>Blog</li></Link>
+            <Link to="/Faq"><li>FAQ</li></Link>
+            <Link to="/Contact"><li>Contact</li></Link>
+            
           </ul>
         </div>
         <div>

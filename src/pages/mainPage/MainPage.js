@@ -11,6 +11,29 @@ import ComprendraCard from "../../component/ComprendraCard/ComprendraCard";
 import RatingCard from "../../component/RatingCard/RatingCard";
 import AutoSlider from "../../component/Slider/AutoSlider";
 import AccordianFaq from "../../component/Accordian/Accordian";
+import image1 from '../../Assets/Grid3.jfif'
+import image2 from '../../Assets/Grid4.jfif'
+import image3 from '../../Assets/Grid5.jfif'
+import image4 from '../../Assets/Grid6.jfif'
+import image5 from '../../Assets/Grid7.jfif'
+import image6 from '../../Assets/Grid8.jfif'
+import image7 from '../../Assets/Grid9.jfif'
+import image8 from '../../Assets/Grid10.jfif'
+import image9 from '../../Assets/Grid11.jfif'
+import image10 from '../../Assets/Grid12.jfif'
+import image11 from '../../Assets/Grid13.jfif'
+import image12 from '../../Assets/Grid14.jfif'
+import image13 from '../../Assets/Grid15.jfif'
+import image14 from '../../Assets/Grid16.jfif'
+import image15 from '../../Assets/Grid17.jfif'
+import image16 from '../../Assets/FAQ1.jfif'
+import image17 from '../../Assets/FAQ2.jfif'
+import image18 from '../../Assets/FAQ3.jfif'
+import image19 from '../../Assets/Grid1.jfif'
+import image20 from '../../Assets/Grid3.jfif'
+import image21 from '../../Assets/Grid4.jfif'
+
+
 
 const MainPage = () => {
   return (
@@ -42,7 +65,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="content_image_portion pi-200 pt-50 pb-10">
-        <div className="d-flex justify-content-between ">
+        <div className="d-flex justify-content-between gap-5">
           <div className="content_portion">
             <h5 className="weight-500 font-20-res-10 blue-heading mb-5">
               JASMIN RENOV
@@ -74,7 +97,7 @@ const MainPage = () => {
           </div>
           <div className="image_portion">
             <img
-              src="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/06/Untitled-design-3.png.webp"
+              src={image1}
               alt="image"
               className="image"
             />
@@ -86,7 +109,7 @@ const MainPage = () => {
         <h1 className="font-40-res-32 weight-700 text-center mb-10">
           Nos services de rénovation
         </h1>
-        <div className="d-flex mt-60 justify-content-between align-items-center">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
           <div className="content_portion">
             <h2 className="font-32-res-24">
               Rénovation de maisons et immeubles
@@ -120,16 +143,15 @@ const MainPage = () => {
           </div>
           <div className="image_portion2">
             <img
-              src="https://jasminrenov.com/wp-content/uploads/2024/01/travaux-maison-_25_.webp"
-              alt="image"
+              src={image2}
               className="image"
             />
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
           <div className="image_portion2">
             <img
-              src="https://jasminrenov.com/wp-content/uploads/2024/01/travaux-maison-_25_.webp"
+              src={image3}
               alt="image"
               className="image"
             />
@@ -165,7 +187,7 @@ const MainPage = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
           <div className="content_portion">
             {/* <h2 className="font-32-res-24">Rénovation de maisons et immeubles</h2> */}
             <p className="brown_content mb-35">
@@ -197,16 +219,16 @@ const MainPage = () => {
           </div>
           <div className="image_portion2">
             <img
-              src="https://jasminrenov.com/wp-content/uploads/2024/01/travaux-maison-_25_.webp"
+              src={image4}
               alt="image"
               className="image"
             />
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
           <div className="image_portion2">
             <img
-              src="https://jasminrenov.com/wp-content/uploads/2024/01/travaux-maison-_25_.webp"
+              src={image5}
               alt="image"
               className="image"
             />
@@ -237,35 +259,35 @@ const MainPage = () => {
       <section className="service_portion">
         <div className="service-portion container">
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/electricite.png.webp"
+            imgUrl={image6}
             title="Electricité générale"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/peinture.png.webp"
+            imgUrl={image7}
             title="Peinture"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison.png.webp"
+            imgUrl={image8}
             title="Plomberie – Sanitaire"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison-1.png.webp"
+            imgUrl={image9}
             title="Plâtrerie – Isolation"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison-2.png.webp"
+            imgUrl={image10}
             title="Chauffage – VMC"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison-3.png.webp"
+            imgUrl={image11}
             title="Porte – Fenêtre – Volet"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison-4.png.webp"
+            imgUrl={image12}
             title="Revêtements de sols"
           />
           <ServiceCard
-            imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/travaux-maison-5.png.webp"
+            imgUrl={image13}
             title="Revêtements de murs"
           />
         </div>
@@ -302,7 +324,7 @@ const MainPage = () => {
           Nous réalisons des projets de rénovation de toutes tailles, pour les
           particuliers et les professionnels.{" "}
         </p>
-        <div className="d-flex justify-content-center gap-10 ">
+        <div className="d-flex justify-content-center gap-10">
           <div>
             <Button name={"Particuliers"} className=" d-flex mt-25 m-auto" />
           </div>
@@ -378,14 +400,14 @@ const MainPage = () => {
         <div className="achievement-portion">
           <Header heading="Nos réalisations en images" />
           <div className="achievement-img container mb-10">
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/1-1.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/4.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/5.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/3.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/2-1.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Realisations.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Realisations-1.jpg.webp" />
-            <AchivementCard imgUrl="https://jasminrenov.com/wp-content/webp-express/webp-images/uploads/2023/07/Realisations-2.jpg.webp" />
+            <AchivementCard imgUrl={image14} />
+            <AchivementCard imgUrl={image15} />
+            <AchivementCard imgUrl={image16} />
+            <AchivementCard imgUrl={image17} />
+            <AchivementCard imgUrl={image18} />
+            <AchivementCard imgUrl={image19} />
+            <AchivementCard imgUrl={image20} />
+            <AchivementCard imgUrl={image21} />
           </div>
           <Button hyperlink="#" name="Voir plus" className="d-flex m-auto " />
         </div>

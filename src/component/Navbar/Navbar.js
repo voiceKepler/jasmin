@@ -1,12 +1,13 @@
 import React from 'react'
 import logo from '../../Assets/logo.webp'
 import './Navbar.css'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg">
       <div class="container-fluid">
-        <img src={logo} alt="JasminRenovLogo" />
+        <NavLink to="/"><img src={logo} alt="JasminRenovLogo" /></NavLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,8 +18,9 @@ function Navbar() {
                 Nos services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Pour les particuliers</a></li>
-                <li><a class="dropdown-item" href="#">Pour les professionnels</a></li>
+                <NavLink to="/Particular" className="dropdown-item"><li>Pour les particuliers</li></NavLink>
+                <NavLink to="/Professionel" className="dropdown-item"><li>Pour les professionnels</li></NavLink>
+                
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -26,21 +28,25 @@ function Navbar() {
                 À propos de nous
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Nos réalisations</a></li>
-                <li><a class="dropdown-item" href="#">Avis clients</a></li>
-                <li><a class="dropdown-item" href="#">Nos zones d’intervention</a></li>
-                <li><a class="dropdown-item" href="#">Nos fournisseurs</a></li>
+              <NavLink to="/NosRealisationPage" className="dropdown-item"><li>Nos réalisations</li></NavLink>
+              <NavLink to="/client" className="dropdown-item"><li>Avis clients</li></NavLink>
+              <NavLink to="/ZonesIntervention" className="dropdown-item"><li>Nos zones d’intervention</li></NavLink>
+              <NavLink to="/NosFournisseurs" className="dropdown-item"><li>Nos fournisseurs</li></NavLink>
+                
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              {/* <a class="nav-link" href="#">Blog</a> */}
+              <NavLink to="/Blog" className="dropdown-item"><li>Blog</li></NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
+
+              <NavLink to="/Faq" className="dropdown-item"><li>Faq</li></NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              
+              <NavLink to="/Contact" className="dropdown-item"><li>Contact</li></NavLink>
             </li>
           </ul>
         </div>
