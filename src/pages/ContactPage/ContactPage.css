@@ -58,3 +58,15 @@
     height: 30px;
   
   }
+  @media only screen and (max-width:480px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form {
+      width: 350px;
+    }
+    .contect-cards{
+      flex-direction: column;
+    }
+  }

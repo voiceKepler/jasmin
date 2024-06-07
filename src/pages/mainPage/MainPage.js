@@ -64,8 +64,8 @@ const MainPage = () => {
           </div>
         </div>
       </section>
-      <section className="content_image_portion pi-200 pt-50 pb-10">
-        <div className="d-flex justify-content-between gap-5">
+      <section className="content_image_portion  pt-50 pb-10">
+        <div className="d-flex justify-content-between gap-5  responsive_flex">
           <div className="content_portion">
             <h5 className="weight-500 font-20-res-10 blue-heading mb-5">
               JASMIN RENOV
@@ -105,11 +105,11 @@ const MainPage = () => {
         </div>
       </section>
 
-      <section className="pi-200 pt-50 pb-10 mt-10">
+      <section className="content_image_portion pt-50 pb-10 mt-10">
         <h1 className="font-40-res-32 weight-700 text-center mb-10">
           Nos services de rénovation
         </h1>
-        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5 responsive_flex">
           <div className="content_portion">
             <h2 className="font-32-res-24">
               Rénovation de maisons et immeubles
@@ -148,7 +148,7 @@ const MainPage = () => {
             />
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5 responsive_flex">
           <div className="image_portion2">
             <img
               src={image3}
@@ -157,7 +157,7 @@ const MainPage = () => {
             />
           </div>
           <div className="content_portion">
-            {/* <h2 className="font-32-res-24">Rénovation de maisons et immeubles</h2> */}
+            
             <p className="brown_content mb-35">
               Vous souhaitez
               <span className="weight-500">rénover votre appartement</span>,ou
@@ -187,9 +187,9 @@ const MainPage = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5 responsive_flex">
           <div className="content_portion">
-            {/* <h2 className="font-32-res-24">Rénovation de maisons et immeubles</h2> */}
+           
             <p className="brown_content mb-35">
               Vous souhaitez donner un coup de neuf à une partie spécifique de
               votre intérieur ? Que ce soit pour
@@ -225,7 +225,7 @@ const MainPage = () => {
             />
           </div>
         </div>
-        <div className="d-flex mt-60 justify-content-between align-items-center gap-5">
+        <div className="d-flex mt-60 justify-content-between align-items-center gap-5 responsive_flex">
           <div className="image_portion2">
             <img
               src={image5}
@@ -234,7 +234,7 @@ const MainPage = () => {
             />
           </div>
           <div className="content_portion">
-            {/* <h2 className="font-32-res-24">Rénovation de maisons et immeubles</h2> */}
+         
             <p className="brown_content mb-35">
               Vous souhaitez aménager de nouveaux bureaux pour vos
               collaborateurs ou attirer les clients ? Pour{" "}
@@ -257,7 +257,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="service_portion">
-        <div className="service-portion container">
+        <div className="service-portion2 container">
           <ServiceCard
             imgUrl={image6}
             title="Electricité générale"
@@ -337,7 +337,7 @@ const MainPage = () => {
         </div>
       </section>
       <section className="confier_portion p-50">
-        <h1 className="text-center weight-500 font-20-res-10 w-35 m-auto">
+        <h1 className="text-center weight-500 font-20-res-10 text-res-width m-auto">
           Confier vos travaux de rénovation à Jasmin Rénov, c'est...
         </h1>
         <div className="confier_grid mt-40">
@@ -356,7 +356,7 @@ const MainPage = () => {
             paragraph="Matériaux de haute qualité et travail soigné pour un résultat final exceptionnel."
           />
         </div>
-        <section className="Comprendra_portion p-50">
+        <section className="Comprendra_portion ">
           <Header heading="Comprendre notre process travaux" />
           <div className="Comprendra_grid mt-40">
             <ComprendraCard
@@ -399,7 +399,7 @@ const MainPage = () => {
       <section>
         <div className="achievement-portion">
           <Header heading="Nos réalisations en images" />
-          <div className="achievement-img container mb-10">
+          <div className="achievement-img container mb-20">
             <AchivementCard imgUrl={image14} />
             <AchivementCard imgUrl={image15} />
             <AchivementCard imgUrl={image16} />
@@ -439,10 +439,10 @@ const MainPage = () => {
       <div className="">
         <div className="acc_portion">
           <AccordianFaq  heading={"Comment puis-je demander un devis gratuit pour un projet de rénovation d'intérieur ?"} paragraph={"Pour demander votre devis de rénovation gratuit, vous pouvez nous contacter par téléphone au 06 05 62 50 19, ou par e-mail sur contact@jasmin-eurl.com, ou utiliser le formulaire dédié sur notre page de contact. Nous organiserons une visite sur place afin d'évaluer vos besoins et de discuter de votre projet"}/>
-          <AccordianFaq  heading={"Quels sont les avantages de faire appel à une entreprise de rénovation d'intérieur professionnelle plutôt que de faire les travaux soi-même ?"} paragraph={""}/>
-          <AccordianFaq  heading={"Quel est le prix au m2 d'une rénovation?"} paragraph={""}/>
-          <AccordianFaq  heading={"Est-ce que votre entreprise dispose d'une assurance responsabilité civile ?"} paragraph={""}/>
-          <AccordianFaq  heading={"Etes-vous ouverts à des collaborations en tant que sous-traitant?"} paragraph={""}/>
+          <AccordianFaq  heading={"Quels sont les avantages de faire appel à une entreprise de rénovation d'intérieur professionnelle plutôt que de faire les travaux soi-même ?"} paragraph={"Les entreprises de rénovation professionnelles possèdent une vaste expérience et expertise dans leur domaine. Ils comprennent les subtilités des projets de rénovation intérieure et peuvent les exécuter de manière efficace et efficiente"}/>
+          <AccordianFaq  heading={"Quel est le prix au m2 d'une rénovation?"} paragraph={"nous comprenons que le coût des projets de rénovation peut varier considérablement en fonction de facteurs tels que l'étendue des travaux, les matériaux utilisés, l'emplacement et les exigences spécifiques du client. Il est donc difficile de proposer un prix fixe au mètre carré sans évaluer les détails uniques de chaque projet"}/>
+          <AccordianFaq  heading={"Est-ce que votre entreprise dispose d'une assurance responsabilité civile ?"} paragraph={"JasminRenov souscrit une assurance responsabilité civile pour assurer la protection de nos clients et de nos projets. Il s’agit d’un aspect essentiel de notre engagement envers un service de qualité et une tranquillité d’esprit pour toutes les parties impliquées."}/>
+          <AccordianFaq  heading={"Etes-vous ouverts à des collaborations en tant que sous-traitant?"} paragraph={"nous sommes toujours ouverts à explorer des collaborations avec des sous-traitants qui correspondent à nos valeurs et normes. Si vous souhaitez potentiellement travailler ensemble, n'hésitez pas à nous contacter pour plus de détails sur vos services et votre expertise. Nous sommes ravis de discuter des opportunités potentielles de collaboration !"}/>
         </div>
       </div>
 

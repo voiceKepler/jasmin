@@ -24,7 +24,7 @@ function ParticularPage() {
       {/* 1st Portion */}
       <HeroComponent videoSrc={video} title="Rénovation de maisons, appartements, studios" describe="Vous envisagez de faire une rénovation complète ou partielle de votre maison, appartement, immeuble ou studio à Paris, en Ile-de-France ou en Alsace ? Notre équipe vous aide à créer des espaces modernes et fonctionnels." btnLink="#" btnName="Devis gratuit" />
       {/* 2nd Portion */}
-      <div className='service-portion container'>
+      <div className='service-portion2 container'>
         <ServiceCard imgUrl={particularImage1} title="Rénovation de salle de bains - WC" />
         <ServiceCard imgUrl={particularImage2} title="Rénovation et installation de cuisine" />
         <ServiceCard imgUrl={particularImage3} title="Rénovation de salon" />
@@ -35,7 +35,7 @@ function ParticularPage() {
         <ServiceCard imgUrl={particularImage8} title="Rénovation de buanderie" />
       </div>
       {/* 3rd Portion */}
-      <div className='local-professionnel container'>
+      <div className='local-professionnel container mb-40'>
         <h2 className='w-50'>Pourquoi rénover son <span className='color-red'>logement?</span></h2>
         <ul className='w-50'>
           <li>Vous voulez moderniser votre espace de vie?</li>
@@ -49,7 +49,7 @@ function ParticularPage() {
         <Button hyperlink="#" name="Devis gratuit" />
       </div>
       {/* 4th Portion */}
-      <div className='information-portion container mt-40'>
+      <div className='information-portion container m-auto'>
         <div className='information-grid m-auto '>
           <Information logo="https://pngfre.com/wp-content/uploads/House-3.png" title="Rénovation de salles de bains, WC" paragraph="Pose de carrelage, peinture, installation des équipements sanitaires (baignoire, douche, douche à l'italienne, meuble vasque, lavabo, sèche serviettes, lave-mains...), pose de WC (WC posé au sol, WC suspendu, WC lavant,...)" />
           <Information logo="https://pngfre.com/wp-content/uploads/House-3.png" title="Peinture murs & plafonds" paragraph="Pièces d'eau, salon - séjour, chambre - bureau, entrée - couloir, etc." />

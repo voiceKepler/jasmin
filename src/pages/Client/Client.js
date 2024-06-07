@@ -36,7 +36,7 @@ function Client() {
       {/* 3rd Portion */}
       <div className='container'>
         <h4 className='text-center'>Avis clients recueillis sur</h4>
-        <div className='d-flex gap-5 justify-content-center mt-3'>
+        <div className='d-flex gap-5 justify-content-center mt-3 client_logo'>
           <img width="120px" src={client1} alt="reviews-logo" className='obj-fit-contain' />
           <img width="120px" src={client2} alt="reviews-logo" className='obj-fit-contain' />
           <img width="120px" src="https://logos-world.net/wp-content/uploads/2023/12/Google-Review-Emblem.png" alt="reviews-logo" />

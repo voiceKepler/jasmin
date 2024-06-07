@@ -41,3 +41,11 @@
   object-fit: cover;
   border-radius: 50%;
   }
+  @media only screen and (max-width:480px) {
+    .faq-parent{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      }
+    
+  }

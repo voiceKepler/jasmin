@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <footer className='w-100 h-50'>
-      <img src={footerBg} alt="footer background" className='footer-img' />
+      {/* <img src={footerBg} alt="footer background" className='footer-img' /> */}
       <div className='footer-content'>
         <div>
           <img  decoding="async" width="150" height="60" src={logo} alt="" className="wp-image-15 mb-5"  />

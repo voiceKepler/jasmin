@@ -29,7 +29,7 @@ function Professionelspage() {
 professionnel" describe="Vous envisagez de faire une rénovation complète ou partielle de votre magasin, hôtel, boulangerie, restaurant ou tout autre commercial à Paris, en Ile-de-France ou en
 Alsace ? Notre équipe vous aide à créer des espaces modernes et professionnels qui reflètent votre image." btnLink="#" btnName="Devis gratuit" />
       {/* 2nd Portion */}
-      <div className='service-portion container'>
+      <div className='service-portion2 container'>
         <ServiceCard imgUrl={particularImage1} title="Rénovation de bureaux" />
         <ServiceCard imgUrl={particularImage2} title="Rénovation de magasins et boutiques" />
         <ServiceCard imgUrl={particularImage3} title="Rénovation de restaurants et cafés" />
@@ -88,7 +88,7 @@ Alsace ? Notre équipe vous aide à créer des espaces modernes et professionnel
       <div>
         <Header heading="Nos engagements" />
         <p className='color-red font-20 text-center'>Jasmin Rénov</p>
-        <div className='d-flex justify-content-center gap-5 mt-5 mb-5'>
+        <div className='d-flex justify-content-center gap-5 mt-5 mb-5 three_card_professional'>
           <ProfessionelCard icon="https://pngfre.com/wp-content/uploads/House-3.png" title="Artisans tous corps de métiers" paragraph="Forts de 20 ans d'expérience, nos artisans qualifiés réalisent tous types de projets de rénovation." />
           <ProfessionelCard icon="https://pngfre.com/wp-content/uploads/House-3.png" title="Budget et délais maîtrisés" paragraph="Nous respectons les délais et le budget convenus, assurant une gestion efficace de votre projet." />
           <ProfessionelCard icon="https://pngfre.com/wp-content/uploads/House-3.png" title="Qualité et garantie décennale" paragraph="Matériaux de haute qualité et travail soigné pour un résultat final exceptionnel." />

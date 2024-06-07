@@ -6,6 +6,7 @@
     padding: 40px;
     -webkit-box-shadow: 0 0 10px #dadada;
           box-shadow: 0 0 10px #dadada;
+          margin: auto;
   }
   
   .img-container {

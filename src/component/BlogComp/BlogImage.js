@@ -1,9 +1,10 @@
 import React from 'react'
+import "./BlogImgCard.css"
 
 function BlogImgCard({imgUrl, title, paragraph}) {
   return (
-    <div className='w-50'>
-      <div>
+    <div className='blogImg-Card'>
+      <div className=''>
         <img src={imgUrl} alt={title} />
       </div>
       <h3>{title}</h3>
